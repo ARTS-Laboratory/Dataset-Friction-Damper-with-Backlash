@@ -2,19 +2,22 @@ import json
 import matplotlib.pyplot as plt
 import numpy as np
 """
-How to use the friction dataset, plotting hysteresis curves for the 
-characterization data and wind profiles
+How to use the friction dataset, plotting hysteresis curves for a 
+characterization and a wind profile.
 
 Author: Daniel Coble
 """
-with open("./data/characterization_dataset.json") as f:
-    characterization_data = json.load(f)
-    f.close()
-
-print(characterization_data['dt'])
 
 test_name = "0.05Hz20lbtension"
-data = np.array(characterization_data[test_name])
+
+with open("./data/characterization datasets/%s.json"%test_name) as f:
+    characterization_data = json.load(f)
+    f.close()
+print("keys: ")
+for key in characterization_data.keys():
+    print(key)
+
+data = np.array(characterization_data["data"])
 t = data[:,0] # time (s)
 x = data[:,1] # displacement (in)
 F = data[:,2] # friction force (kip)
@@ -39,14 +42,13 @@ plt.tight_layout()
 
 # doing the same thing with the wind profiles
 
-with open("./data/wind_profiles.json") as f:
+test_name = "test1"
+
+with open("./data/wind profiles/%s.json"%test_name) as f:
     wind_profile_data = json.load(f)
     f.close()
 
-print(wind_profile_data['sampling freq'])
-
-test_name = "test1"
-data = np.array(wind_profile_data[test_name])
+data = np.array(wind_profile_data["data"])
 t = data[:,0] # time (s)
 x = data[:,1] # displacement (in)
 F = data[:,2] # friction force (kip)
