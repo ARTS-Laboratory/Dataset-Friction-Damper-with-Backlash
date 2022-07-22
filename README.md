@@ -3,7 +3,12 @@
 This dataset comes from tests of the banded rotary friction device (BRFD), which exhibits hysteritic and backlash effects. 
 
 ## Device and Data
-The BRFD [1,2]
+The BRFD is a semi active friction damper damper [1,2]. The device has heightened applicability compared to other damping
+technologies due to its mechanical robustness,
+technological simplicity, and high damping
+performance.
+
+
 
 
 <p align="center">
