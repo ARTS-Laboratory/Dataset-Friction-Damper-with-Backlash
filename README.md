@@ -30,9 +30,10 @@ Access each dataset by loading the .json file for each test. Data is stored in a
 
 ### References
 
-[1] Downey, A., Cao, L., Laflamme, S., Taylor, D., & Ricles, J. (2016). High capacity variable friction damper based on band brake technology. Engineering Structures, 113, 287-298.
+[1] Mitchell Stiles, Safwan Al Subaihawi, James Ricles, Liang Cao, and Austin Downey. Undergraduate research experience  (REU), NHERI 2019: Fabrication of a semi-active friction damper, 2019. doi:10.17603/DS2-PT11-YN09
 
-[2] Stiles, M., & Subaihawi, S. L. Fabrication of a Semi-Active Controlled Friction Damper Device.
+[2] Austin Downey, Liang Cao, Simon Laflamme, Douglas Taylor, and James Ricles. High capacity variable friction damper based on band brake technology. Engineering Structures, 113:287–298, apr 2016. doi:10.1016/j.engstruct.2016.01.035
+
 
 ## Licensing and Citation
 
