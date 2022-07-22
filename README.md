@@ -7,12 +7,12 @@ This dataset comes from tests of the banded rotary friction device (BRFD), which
 
 Characterization datasets were performed by moving the damper under a sinusoidal displacement such as shown below. The wind profile tests were performed in a hybrid test where displacment from a simulated structure under wind diplacement was fed into the damper. This test was performed in real-time so that reactions from the damper were captured and used in the structure simulation.
 <p align="center">
-<img src="images/displacement-profile.png" alt="sinusoidal displacement profile" width="500"/> <br> 
+<img src="images/displacement-profile.png" alt="sinusoidal displacement profile" width="400"/> <br> 
 </p>
 
 <p align="center">
-<img src="images/force-displacement.png" alt="displacement hysteresis loop from characterization test" width="500"/>
-<img src="images/force-velocity.png" alt="velocity hysteresis loop from characterization test" width="500"/>
+<img src="images/force-displacement.png" alt="displacement hysteresis loop from characterization test" width="400"/>
+<img src="images/force-velocity.png" alt="velocity hysteresis loop from characterization test" width="400"/>
 <br> 
 </p>
 
