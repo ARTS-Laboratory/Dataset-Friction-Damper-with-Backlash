@@ -10,7 +10,7 @@ Author: Daniel Coble
 
 test_name = "0.05Hz20lbtension"
 
-with open("./data/characterization datasets/%s.json"%test_name) as f:
+with open("./characterization datasets/%s.json"%test_name) as f:
     characterization_data = json.load(f)
     f.close()
 print("keys: ")
@@ -44,7 +44,7 @@ plt.tight_layout()
 
 test_name = "test1"
 
-with open("./data/wind profiles/%s.json"%test_name) as f:
+with open("./wind profiles/%s.json"%test_name) as f:
     wind_profile_data = json.load(f)
     f.close()
 
