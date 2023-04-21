@@ -26,3 +26,8 @@
 |1|2.12985|Kocaeli Turkey|1999|Yarimca|7.51|strike slip|
 |2|0.7614|Duzce Turkey|1999|Bolu|7.14|strike slip|
 |3|1.61805|Imperial Valley-06|1979|El Centro Array #7|6.53|strike slip|
+
+## [Dataset 3](dataset-3)
+* Tests done in April 2023
+* Characterization tests identical to Dataset 2 but only with 30 lb band tension.
+* Six earthquake tests identical to Dataset 2 but with 30 lb band tension.
