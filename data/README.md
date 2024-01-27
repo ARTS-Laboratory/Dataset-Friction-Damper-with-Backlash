@@ -31,3 +31,9 @@
 * Tests done in April 2023
 * Characterization tests identical to Dataset 2 but only with 30 lb band tension.
 * Six earthquake tests identical to Dataset 2 but with 30 lb band tension.
+
+## [Dataset 4](dataset-4)
+* Semi-active test data from August 2023 with simultaneous hydraulic and electric actuator displacements.
+* Hydraulic actuator follows the same sinusoidal displacement profile for all tests (amplitude 1 in, frequency 0.5 Hz).
+* 12 tests total, 6 use harmonic electric actuator inputs, 6 use step electric actuator inputs.
+* Access the dataset by loading the .json file for each test. Data is stored in a matrix with columns time (s), displacement (in), friction force (kip), velocity (in/s), actuator position 1 (in), actuator position 2 (in), actuator force 1 (lb), actuator force 2 (lb).
