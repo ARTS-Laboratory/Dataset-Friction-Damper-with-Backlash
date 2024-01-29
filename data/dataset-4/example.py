@@ -35,7 +35,7 @@ plt.tight_layout()
 plt.figure(figsize=(6, 4))
 plt.plot(v, F)
 plt.ylabel("force (kip)")
-plt.xlabel("velocity (in)")
+plt.xlabel("velocity (in/s)")
 plt.title("Force-velocity of semi-active data")
 plt.tight_layout()
 
