@@ -11,7 +11,7 @@ Author: Parker Huggins
 test_name = "harmonic0.015forward"
 
 with open("%s.json"%test_name) as f:
-    semiactive_data = json.load(f)
+    semiactive_data = json.load(f)['data']
     f.close()
 
 data = np.array(semiactive_data)
