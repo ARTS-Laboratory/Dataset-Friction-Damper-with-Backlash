@@ -50,7 +50,7 @@ This work is licensed under a
 Cite as:
 
 @Misc{Coble2022DatasetFrictionDampery,   
-  author = {Daniel Coble and Liang Cao and James Ricles and Austin Downey},   
+  author = {Daniel Coble and Parker Huggins and Liang Cao and James Ricles and Austin Downey},   
   howpublished = {GitHub},  
   title  = {Dataset-Friction-Damper-with-Backlash},   
   year   = {2022},  
